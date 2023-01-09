@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        table,
+        th,
+        td.one {
+
+            border-collapse: collapse;
+            border: 1px solid black;
+            font-family: sans-serif;
+
+            text-align: left;
+        }
+
+
+
+
+        table.second {
+            background-color: #bec0bf;
+            border-collapse: collapse;
+            text-align: left;
+            table-layout: fixed;
+            margin: 10px auto;
+
+            font-family: sans-serif;
+            width: 300px;
+            height: 150px;
+            border: 1px solid black;
+            font-weight: bold;
+        }
+
+        td,
+        th.second {
+            border: 1px solid black;
+            font-weight: bold;
+            padding: 0.9rem;
+            border-collapse: collapse;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1> HTML table basics</h1>
+    <button a href="#">Overview: Tables</a> </button>
+    <p>This article gets you started with HTML tables, covering the very basics such as rows,
+        cells, headings, making cells span multiple columns and rows, and how to group
+        together all the cells in a column for styling purposes.</p>
+    <table class="one">
+        <tr>
+            <th>Prerequisites:</th>
+            <td> The basics of HTML (see <a href="#">Introduction to HTML).</a></td>
+
+        </tr>
+        <tr>
+            <th>Objective:</th>
+            <td>To gain basic familiarity with HTML tables.</td>
+
+
+
+        </tr>
+    </table>
+
+    <h2>What is a table?</h2>
+
+    A table is a structured set of data made up of rows and columns (<b>tabular data</b>). A table allows you to quickly
+    and
+    easily look up values that indicate some kind of connection between different types of data, for example a person
+    and their age, or a day of the week, or the timetable for a local swimming pool.
+    <table class="second">
+        <tr>
+            <th>Person</th>
+            <th>Age</th>
+
+        </tr>
+        <tr>
+            <td style="background-color: #dcdcdc">Chris</td>
+            <td style="background-color: white">38</td>
+        </tr>
+        <tr>
+            <td style="background-color: #dcdcdc">Dennis</td>
+            <td style="background-color: white">45</td>
+        </tr>
+        <tr>
+            <td style="background-color: #dcdcdc">Sarah</td>
+            <td style="background-color: white">29</td>
+        </tr>
+        <tr>
+            <td style="background-color: #dcdcdc">Karen</td>
+            <td style="background-color: white">47</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
